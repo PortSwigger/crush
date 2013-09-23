@@ -284,7 +284,7 @@ public class BurpExtender extends AbstractTableModel implements IBurpExtender, I
                 BufferedReader dIn = new BufferedReader(new InputStreamReader(s.getInputStream()));
                 dOut.write(request);
 
-                while((str = dIn.readLine()) != null) {    
+                while(!(str = dIn.readLine()).equals("")) {    
                     response = response + str + "\r\n";
                 }
                 dIn.close(); dOut.close(); s.close();
