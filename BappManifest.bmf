@@ -1,0 +1,11 @@
+Uuid: 81280b48c52c4e34998d987373273fb4
+ExtensionType: 1
+Name: Crush
+ScreenVersion: 1.0
+SerialVersion: 2
+MinPlatformVersion: 0
+ProOnly: False
+Author: Cory Baker
+ShortDescription: Re-sends a request multiple times with each of its parameters omitted in turn.
+EntryPoint: crush.jar
+BuildCommand: rm crush.jar && ./compile_crush.sh
