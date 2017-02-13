@@ -1,6 +1,7 @@
 Uuid: 81280b48c52c4e34998d987373273fb4
 ExtensionType: 1
 Name: Crush
+RepoName: crush
 ScreenVersion: 1.0
 SerialVersion: 2
 MinPlatformVersion: 0
